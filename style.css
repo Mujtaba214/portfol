@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.nav {
+  background: #2c2c2c;
+}
+
+.img{
+    height: 470px;
+}
+
+.nav-med {
+  padding-left: 400px;
+}
+
+.heading-services {
+  text-align: center;
+  font-size: 2.7vw;
+  /* text-transform: uppercase; */
+}
+
+.heading-services:hover {
+  cursor: pointer;
+  color: rgb(112, 122, 122);
+  transform: translateY(10%);
+}
+
+.img-group {
+  width: 100%;
+  height: 60%;
+}
+
+.card-about {
+  height: 400px;
+  width: 33%;
+  /* border: 2px solid black; */
+}
+
+.heading-about {
+  padding-top: 13px;
+  text-align: center;
+  font-size: 2.7vw;
+  /* text-transform: uppercase; */
+}
+/* 
+.card-about{
+    background-color: #2c2c2c;
+    color: white;
+    cursor: pointer;
+} */
+
+.card-height {
+  height: 150px;
+}
+
+.card-hover:hover {
+  background-color: #2c2c2c;
+  color: white;
+  cursor: pointer;
+}
+
+.img-web {
+  width: 100%;
+  height: 250px;
+}
+
+.footer {
+  background-color: #2c2c2c;
+  color: white;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-links a:hover {
+  color: wheat;
+  cursor: pointer;
+}
+
+.quick-links .btns {
+  padding-top: 0;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+@media screen and (max-width: 670px) {
+  .nav-med {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  .nav-med {
+    padding-left: 0;
+  }
+
+  .img{
+    height: 100px;
+  }
+
+  .img-web {
+    width: 100%;
+    height: 150px;
+  }
+
+  .heading-services{
+    font-size: 1.5rem;
+  }
+
+  .card-about{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 15px;
+  }
+
+  .about-3{
+    margin-bottom: 30px;
+  }
+
+  .card-body p{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+
+  .heading-about{
+    font-size: 1.5rem;
+    margin: 10px 0;
+    padding-top: 10px;
+  }
+
+  .card-height{
+    height: 200px;
+  }
+}
